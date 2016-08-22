@@ -1,4 +1,4 @@
-body {font-family: Arial;}
+body {font-family: Arial;
+.page { background-color: black}}
 h1, h2{ color: yellow;}
 p {color: blue;}
-.page { background-color: black}
