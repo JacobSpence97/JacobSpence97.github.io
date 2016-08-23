@@ -1,6 +1,12 @@
 body {font-family: comicsansMS;
-background-color: gray}
+background-color: grey}
 h1, h2{color: yellow;}
 h3{color: red}
+a:link {
+  color:blue;
+  text-decoration: overline;;
+}
+a:visited {color: black
+text-decoration: underline;}
 i {color: purple}
 p {color: #33FF5C;}
