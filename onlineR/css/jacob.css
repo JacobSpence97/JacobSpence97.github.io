@@ -1,4 +1,9 @@
 img.img-responsive{width:300px; height:200px;}
 #bcca{color:blue;}
-#me{width:auto; height:auto;}
+#me{width:auto; height:1;}
 #jsp{color:blue;}
+header{background-image: url("../img/portfolio/water_valley.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-color: transparent;
+}
