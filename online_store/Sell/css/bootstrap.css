@@ -9,6 +9,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+html{cursor: url("http://www.cursor.cc/cursor/41/28/cursor.png"), default;}
 body {
   margin: 0;
 }
