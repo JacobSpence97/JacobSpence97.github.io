@@ -1,0 +1,42 @@
+/**{
+  padding: 1em;
+  border-width: thin;
+  border-style: dashed;
+
+}*/
+#glad1{height: 90%;
+width: 60%;
+}
+
+.image-flip {
+  transform: scale(-1, 1);
+}
+
+
+#glad2{height: 90%;
+width: 60%;}
+
+#sword{width:100%;
+align-self: center;}
+.attack1{
+  max-width: 25%;
+  min-width: 15%;
+  max-height: 50%;
+  min-height: 25%;
+  /*position: relative;
+  left: 1.5%;*/
+
+
+}
+.attack2{
+  max-width: 25%;
+  min-width: 15%;
+  max-height: 50%;
+  min-height: 25%;
+  /*position: relative;
+  left: 75%;
+  bottom: 50%;
+  border-style: groove;*/
+}
+#heal{width:50%;
+align-self: center;}
