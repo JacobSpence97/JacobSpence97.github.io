@@ -11,7 +11,7 @@ background-size: 100%;}
 
 #glad1{height: 90%;
 width: 60%;
-}
+z-index: 1;}
 
 .image-flip {
   transform: scale(-1, 1);
@@ -19,10 +19,22 @@ width: 60%;
 
 
 #glad2{height: 90%;
-width: 60%;}
+width: 60%;
+z-index: 1;}
 
 #sword{width:100%;
 align-self: center;}
+
+#lion{align-self: center;
+opacity: 0.25;
+z-index: -1;
+position: absolute;
+left: 42%;
+top: 20%;
+height: 55%;
+width: 15%;}
+
+
 .attack1{
   max-width: 100%;
   min-width: 25%;
