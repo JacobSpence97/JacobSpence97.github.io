@@ -1,7 +1,8 @@
 *{
   /*padding: 1em;*/
-  /*border-width: thin;*/
-  /*border-style: dashed;*/
+  /*border-width: thin;
+  border-style: dashed;
+  border-color: white;*/
 }
 
 body {background-image: url("images/arena.png");
@@ -45,12 +46,16 @@ align-self: center;}
 #heal{width:50%;
 align-self: center;}
 
-#floored{
+.floored{
   position: absolute;
   bottom: 5%;
 }
 
-#floored2{
+.floored2{
   position: absolute;
   bottom: 5%;
+}
+#opeaner{
+  text-align: center;
+  color: #600101;
 }
