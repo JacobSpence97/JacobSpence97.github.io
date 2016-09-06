@@ -1,9 +1,13 @@
 *{
-  /*padding: 1em;
-  border-width: thin;*/
+  /*padding: 1em;*/
+  /*border-width: thin;*/
   /*border-style: dashed;*/
-
 }
+
+body {background-image: url("images/arena.png");
+background-repeat: no-repeat;
+background-size: 100%;}
+
 #glad1{height: 90%;
 width: 60%;
 }
@@ -23,8 +27,8 @@ align-self: center;}
   min-width: 25%;
   max-height: 100%;
   min-height: 25%;
-  position: relative;
-  left: 20%;
+  /*position: relative;
+  left: 20%;*/
 
 
 }
@@ -33,10 +37,20 @@ align-self: center;}
   min-width: 25%;
   max-height: 100%;
   min-height: 25%;
-  position: relative;
-  left: 95%;
+  /*position: relative;
+  left: 95%;*/
   /*bottom: 50%;
   border-style: groove;*/
 }
 #heal{width:50%;
 align-self: center;}
+
+#floored{
+  position: absolute;
+  bottom: 5%;
+}
+
+#floored2{
+  position: absolute;
+  bottom: 5%;
+}
