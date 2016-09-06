@@ -20,7 +20,9 @@ z-index: 1;}
 
 #glad2{height: 90%;
 width: 60%;
-z-index: 1;}
+z-index: 1;
+filter: invert(100%);
+-webkit-filter: invert(100%);}
 
 #sword{width:100%;
 align-self: center;}
@@ -32,7 +34,9 @@ position: absolute;
 left: 42%;
 top: 20%;
 height: 55%;
-width: 15%;}
+width: 15%;
+filter: invert(100%);
+-webkit-filter: invert(100%);}
 
 
 .attack1{
