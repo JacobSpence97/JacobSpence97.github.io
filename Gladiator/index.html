@@ -7,14 +7,17 @@
     <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
     <link href="gladcss.css" rel="stylesheet" />
 </head>
-
+<audio autoplay>
+  <!-- <source src="cat-and-dog-fight.ogg" type="audio/ogg"> -->
+  <source src="sound/Funny-fanfare-sound.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
 <body>
     <div class="container-fluid">
         <!-- title -->
         <div id="opeaner" class="col-lg-12 col-md-12 col-sm-12">
             <b>Spartacus VS Perseus</b>
         </div>
-
         <!-- status buttons-->
         <div class="col-lg-12 col-md-12 col-sm-12">
             <!-- buttons 1 -->
@@ -98,6 +101,9 @@
     </div>
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="js/gladjs.js"></script>
+    <audio style="display: none" controls="controls" loop = "loop" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 3000)">
+        <source src="sound/Cat-and-dog-fight.mp3" type="audio/mp3" />
+    </audio>
 </body>
 
 </html>
