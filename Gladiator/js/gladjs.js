@@ -1,5 +1,5 @@
 Gladiator = {
-  
+
   numGladiators: 2,
 
   something: function (){
@@ -7,7 +7,7 @@ Gladiator = {
   },
 
   heal: function (){
-    alert("THATS BETTER!!!");
+    alert("Because IM BATMAN!!!");
   }
 
 }

@@ -62,15 +62,6 @@ filter: invert(100%);
 #heal{width:50%;
 align-self: center;}
 
-.floored{
-  position: absolute;
-  bottom: 5%;
-}
-
-.floored2{
-  position: absolute;
-  bottom: 5%;
-}
 #opeaner{
   text-align: center;
   color: #600101;
